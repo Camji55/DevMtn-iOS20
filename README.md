@@ -9,7 +9,7 @@ Module 2: [Team Treehouse - Beginning Swift Track](https://teamtreehouse.com/cam
 
 Module 3: [Food Tracker](https://github.com/Camji55/DevMtn-iOS20-PreCourse/tree/master/Food%20Tracker)
 
-Module 4: [Github](https://github.com/Camji55/DevMtn-iOS20-PreCourse)
+Module 4: [Github](https://github.com/Camji55/DevMtn-iOS20)
 
 ### Guided Projects
 Guided Project 1: [Views and Storyboards](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Views%20and%20Storyboards)
