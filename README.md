@@ -1,5 +1,7 @@
 # DevMountain
 
+![](https://i.imgur.com/hLIWH4V.png)
+
 ### PreCourse
 Module 1: [Swift Programming Big Nerd Ranch Guide](https://github.com/Camji55/DevMtn-iOS20-PreCourse/tree/master/Swift%20Programming%20Big%20Nerd%20Ranch%20Guide)
 
