@@ -24,6 +24,8 @@ Project 1: [Flashlight iOS App](https://github.com/Camji55/Flashlight-iOS)
 
 Project 2: [Solar System iOS App](https://github.com/Camji55/Solar-System-iOS)
 
+Project 3: [Journal iOS App](https://github.com/Camji55/Journal-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
