@@ -20,6 +20,8 @@ Guided Project 3: [Playlist - Part 1](https://github.com/Camji55/DevMtn-iOS20-Gu
 
 Guided Project 4: [Playlist - Part 2](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Playlist%20-%20Part%202)
 
+Weekend Guided Project 1: [Friend Rater](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/FriendRater)
+
 ### Projects
 Project 1: [Flashlight iOS App](https://github.com/Camji55/Flashlight-iOS)
 
