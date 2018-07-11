@@ -26,7 +26,7 @@ Guided Project 5: [Settings](https://github.com/Camji55/DevMtn-iOS20-GuidedProje
 
 Guided Project 6: [Power Nap](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Power%20Nap)
 
-Guided Project 7: [Playlist - CoreData](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Playlist%20-%20CoreData)
+Guided Project 7: [Playlist - Core Data](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Playlist%20-%20CoreData)
 
 ### Projects
 Project 1: [Flashlight iOS App](https://github.com/Camji55/Flashlight-iOS)
