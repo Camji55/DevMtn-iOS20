@@ -48,6 +48,8 @@ Project 3: [Journal iOS App](https://github.com/Camji55/Journal-iOS)
 
 Project 4: [Alarm iOS App](https://github.com/Camji55/Alarm-iOS)
 
+Project 5: [Tasks iOS App](https://github.com/Camji55/Tasks-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
