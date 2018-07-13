@@ -28,6 +28,10 @@ Guided Project 6: [Power Nap](https://github.com/Camji55/DevMtn-iOS20-GuidedProj
 
 Guided Project 7: [Playlist - Core Data](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Playlist%20-%20CoreData)
 
+Guided Project 8: [Journal - Core Data](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Journal)
+
+Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
+
 ### Projects
 Project 1: [Flashlight iOS App](https://github.com/Camji55/Flashlight-iOS)
 
