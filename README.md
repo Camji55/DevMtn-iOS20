@@ -33,6 +33,8 @@ Guided Project 8: [Journal - Core Data](https://github.com/Camji55/DevMtn-iOS20-
 
 Guided Project 9: [Deck of One Card](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Deck%20of%20One%20Card)
 
+Guided Project 10: [Pokedex](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Pokedex)
+
 #### Climb Night
 
 Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
