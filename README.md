@@ -12,9 +12,7 @@
 - Module 4: [Github](https://github.com/Camji55/DevMtn-iOS20)
 
 ### Guided Projects
-
 #### Class
-
 - Guided Project 1: [Hello View](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Hello%20View)
 
 - Guided Project 2: [Days of Week](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Days%20of%20Week)
@@ -36,11 +34,9 @@
 - Guided Project 10: [Pokedex](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Pokedex)
 
 #### Climb Night
-
 - Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
 
 #### Weekend Guided Project
-
 - Weekend Guided Project 1: [Friend Rater](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/FriendRater)
 
 - Weekend Guided Project 2: [Restaurant Rater](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/RestaurantRater)
