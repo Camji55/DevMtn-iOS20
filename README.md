@@ -52,6 +52,8 @@
 
 - Project 5: [Tasks iOS App](https://github.com/Camji55/Tasks-iOS)
 
+- Project 5: [Global Messages iOS App](https://github.com/Camji55/Global-Messages-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
