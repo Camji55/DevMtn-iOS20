@@ -33,6 +33,8 @@
 
 - Guided Project 10: [Pokedex](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Pokedex)
 
+- Guided Project 11: [Favorite App](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Favorite%20App)
+
 #### Climb Night
 - Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
 
