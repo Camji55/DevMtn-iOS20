@@ -56,6 +56,8 @@
 
 - Project 6: [Global Messages iOS App](https://github.com/Camji55/Global-Messages-iOS)
 
+- Project 7: [My Representatives iOS App](https://github.com/Camji55/My-Representatives-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
