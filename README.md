@@ -64,6 +64,8 @@
 
 - Project 7: [My Representatives iOS App](https://github.com/Camji55/My-Representatives-iOS)
 
+- Project 8: [Journal-C iOS App](https://github.com/Camji55/Journal-C-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
