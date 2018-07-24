@@ -41,6 +41,8 @@
 
 - Guided Project 14: [Playlist - Objective C](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Playlist%20-%20Objective%20C)
 
+- Guided Project 15: [Pokedex - Hybrid](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Pokedex%20-%20Hybrid)
+
 #### Climb Night
 - Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
 
