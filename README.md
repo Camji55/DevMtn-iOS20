@@ -43,6 +43,8 @@
 
 - Guided Project 15: [Pokedex - Hybrid](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Pokedex%20-%20Hybrid)
 
+- Guided Project 16: [Contacts - Objective C](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/ContactsC)
+
 #### Climb Night
 - Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
 
