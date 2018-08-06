@@ -76,6 +76,8 @@
 
 - Project 9: [Card-C iOS App](https://github.com/Camji55/Card-C-iOS)
 
+- Project 10: [Journal CloudKit iOS App](https://github.com/Camji55/Journal-CloudKit-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
