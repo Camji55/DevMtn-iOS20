@@ -1,8 +1,7 @@
 <br/><br/>
 <p align="center">
-  <img width="150" src="https://i.imgur.com/hLIWH4V.png">
+  <img width="400" src="https://user-images.githubusercontent.com/2769158/43698844-4d25d832-9909-11e8-89db-b7b3bcd6c679.png">
 </p>
-<h3 align="center">DevMountain</h3>
 <br/><br/>
 
 ### PreCourse
