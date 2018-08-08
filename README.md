@@ -49,6 +49,8 @@
 
 - Guided Project 17: [Bulletin Board](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Bulletin%20Board)
 
+- Guided Project 18: [CKUsers](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/CKUsers)
+
 #### Climb Night
 - Climb Night Guided Project 2: [Kanye Quotes](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Kanye%20Quotes)
 
