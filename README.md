@@ -86,6 +86,8 @@
 
 - Project 11: [Timeline iOS App](https://github.com/Camji55/Timeline-iOS)
 
+- Project 12: [Calculator iOS App](https://github.com/Camji55/Calculator-iOS)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
