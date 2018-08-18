@@ -88,6 +88,8 @@
 
 - Project 12: [Calculator iOS App](https://github.com/Camji55/Calculator-iOS)
 
+- Project 13: [Fastr iOS App](https://github.com/Camji55/Fastr)
+
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
