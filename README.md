@@ -90,9 +90,6 @@
 
 - Project 13: [Fastr iOS App](https://github.com/Camji55/Fastr)
 
-### Capstone Projects
-- Group Project: [CarCare](https://github.com/Camji55/CarCare)
-
 ##### Cameron Ingham
 ###### Salt Lake City - iOS Immersive - July 2nd
 
