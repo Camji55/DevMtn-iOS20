@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="die-Qw-lsz">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BCX-98-DnH">
+            <objects>
+                <viewController id="die-Qw-lsz" customClass="ViewController" customModule="Power_Nap_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OSv-Hc-M7U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 : 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgZ-5S-58O">
+                                <rect key="frame" x="97.5" y="220" width="125" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.49909734249999999" green="0.48362100600000002" blue="0.9438815827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHV-hw-BEj">
+                                <rect key="frame" x="0.0" y="468" width="320" height="100"/>
+                                <color key="backgroundColor" red="0.49909734249999999" green="0.48362100600000002" blue="0.9438815827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qo2-6Z-pS8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startStopButton:" destination="die-Qw-lsz" eventType="touchUpInside" id="YYQ-Ze-ky7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hLK-8d-hFV" firstAttribute="bottom" secondItem="BHV-hw-BEj" secondAttribute="bottom" id="OS8-RX-INX"/>
+                            <constraint firstItem="hLK-8d-hFV" firstAttribute="trailing" secondItem="BHV-hw-BEj" secondAttribute="trailing" id="Or4-dQ-D3p"/>
+                            <constraint firstItem="FgZ-5S-58O" firstAttribute="centerY" secondItem="hLK-8d-hFV" secondAttribute="centerY" constant="-50" id="QB3-OG-MWs"/>
+                            <constraint firstItem="FgZ-5S-58O" firstAttribute="centerX" secondItem="hLK-8d-hFV" secondAttribute="centerX" id="Ytv-xC-Tjg"/>
+                            <constraint firstItem="BHV-hw-BEj" firstAttribute="leading" secondItem="hLK-8d-hFV" secondAttribute="leading" id="eUb-ff-eEO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hLK-8d-hFV"/>
+                    </view>
+                    <connections>
+                        <outlet property="startStopButton" destination="BHV-hw-BEj" id="q5I-L4-VK2"/>
+                        <outlet property="timerLabel" destination="FgZ-5S-58O" id="n7u-w8-32z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zOO-iV-dix" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="37"/>
+        </scene>
+    </scenes>
+</document>

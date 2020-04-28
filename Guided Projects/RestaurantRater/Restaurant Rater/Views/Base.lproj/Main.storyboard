@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YIb-2V-uI0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Restaurants-->
+        <scene sceneID="Yq6-nC-QvA">
+            <objects>
+                <tableViewController id="IBF-9m-pBF" customClass="RestaurantListTableViewController" customModule="Restaurant_Rater" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="75" sectionHeaderHeight="28" sectionFooterHeight="28" id="YXA-3i-Mfi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="RestaurantCell" rowHeight="75" id="LT3-Yj-wdA" customClass="RestaurantTableViewCell" customModule="Restaurant_Rater" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="75"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LT3-Yj-wdA" id="CtW-9N-IcC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcT-ua-Rwr">
+                                            <rect key="frame" x="20" y="27.5" width="287" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-hS-YcP">
+                                            <rect key="frame" x="327" y="24.5" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="Qsl-Io-48Z"/>
+                                                <constraint firstAttribute="width" constant="25" id="bjT-Sm-Aoq"/>
+                                            </constraints>
+                                            <state key="normal" backgroundImage="thumbs-up"/>
+                                            <connections>
+                                                <action selector="toggleButton:" destination="LT3-Yj-wdA" eventType="touchUpInside" id="BIE-Yc-WVT"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="FcT-ua-Rwr" firstAttribute="centerY" secondItem="CtW-9N-IcC" secondAttribute="centerY" id="9KD-Ti-cho"/>
+                                        <constraint firstAttribute="trailing" secondItem="bxP-hS-YcP" secondAttribute="trailing" constant="23" id="G8x-Qh-txz"/>
+                                        <constraint firstItem="FcT-ua-Rwr" firstAttribute="leading" secondItem="CtW-9N-IcC" secondAttribute="leading" constant="20" id="Hsf-kC-kR4"/>
+                                        <constraint firstItem="bxP-hS-YcP" firstAttribute="leading" secondItem="FcT-ua-Rwr" secondAttribute="trailing" constant="20" id="Yra-rV-n6v"/>
+                                        <constraint firstItem="bxP-hS-YcP" firstAttribute="centerY" secondItem="CtW-9N-IcC" secondAttribute="centerY" id="zCS-HP-vPe"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="FcT-ua-Rwr" id="EKk-Mv-DQd"/>
+                                    <outlet property="rateButton" destination="bxP-hS-YcP" id="ITe-h7-he0"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IBF-9m-pBF" id="lLd-Nm-ZXb"/>
+                            <outlet property="delegate" destination="IBF-9m-pBF" id="8bQ-We-g6V"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Restaurants" id="MbO-pq-Xmy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="uq2-Jh-o2N">
+                            <connections>
+                                <action selector="addRestaurant:" destination="IBF-9m-pBF" id="qAT-lj-5Gn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kmj-fP-Njl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="139.880059970015"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rm4-ZU-glI">
+            <objects>
+                <navigationController id="YIb-2V-uI0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="XZw-vv-1Pw">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IBF-9m-pBF" kind="relationship" relationship="rootViewController" id="hb7-G3-gPL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aK3-MC-Wft" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-397" y="140"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="thumbs-up" width="32" height="32"/>
+    </resources>
+</document>

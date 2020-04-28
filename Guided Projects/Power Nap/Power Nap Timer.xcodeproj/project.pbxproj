@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8431B10620F512F70017D4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431B10520F512F70017D4F0 /* AppDelegate.swift */; };
+		8431B10B20F512F70017D4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431B10920F512F70017D4F0 /* Main.storyboard */; };
+		8431B10E20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8431B10C20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodeld */; };
+		8431B11020F512F80017D4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8431B10F20F512F80017D4F0 /* Assets.xcassets */; };
+		8431B11320F512F80017D4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431B11120F512F80017D4F0 /* LaunchScreen.storyboard */; };
+		8431B11E20F512F80017D4F0 /* Power_Nap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431B11D20F512F80017D4F0 /* Power_Nap_TimerTests.swift */; };
+		8431B12920F512F80017D4F0 /* Power_Nap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431B12820F512F80017D4F0 /* Power_Nap_TimerUITests.swift */; };
+		8431B13D20F516860017D4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431B13C20F516860017D4F0 /* ViewController.swift */; };
+		8431B14020F516BD0017D4F0 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431B13F20F516BD0017D4F0 /* MyTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8431B11A20F512F80017D4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8431B0FA20F512F70017D4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8431B10120F512F70017D4F0;
+			remoteInfo = "Power Nap Timer";
+		};
+		8431B12520F512F80017D4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8431B0FA20F512F70017D4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8431B10120F512F70017D4F0;
+			remoteInfo = "Power Nap Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8431B10220F512F70017D4F0 /* Power Nap Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Nap Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431B10520F512F70017D4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8431B10A20F512F70017D4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8431B10D20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Power_Nap_Timer.xcdatamodel; sourceTree = "<group>"; };
+		8431B10F20F512F80017D4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8431B11220F512F80017D4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8431B11420F512F80017D4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431B11920F512F80017D4F0 /* Power Nap TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Nap TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431B11D20F512F80017D4F0 /* Power_Nap_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Nap_TimerTests.swift; sourceTree = "<group>"; };
+		8431B11F20F512F80017D4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431B12420F512F80017D4F0 /* Power Nap TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Nap TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431B12820F512F80017D4F0 /* Power_Nap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Nap_TimerUITests.swift; sourceTree = "<group>"; };
+		8431B12A20F512F80017D4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431B13C20F516860017D4F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8431B13F20F516BD0017D4F0 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8431B0FF20F512F70017D4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B11620F512F80017D4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B12120F512F80017D4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8431B0F920F512F70017D4F0 = {
+			isa = PBXGroup;
+			children = (
+				8431B10420F512F70017D4F0 /* Power Nap Timer */,
+				8431B11C20F512F80017D4F0 /* Power Nap TimerTests */,
+				8431B12720F512F80017D4F0 /* Power Nap TimerUITests */,
+				8431B10320F512F70017D4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8431B10320F512F70017D4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8431B10220F512F70017D4F0 /* Power Nap Timer.app */,
+				8431B11920F512F80017D4F0 /* Power Nap TimerTests.xctest */,
+				8431B12420F512F80017D4F0 /* Power Nap TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8431B10420F512F70017D4F0 /* Power Nap Timer */ = {
+			isa = PBXGroup;
+			children = (
+				8431B10520F512F70017D4F0 /* AppDelegate.swift */,
+				8431B13C20F516860017D4F0 /* ViewController.swift */,
+				8431B13F20F516BD0017D4F0 /* MyTimer.swift */,
+				8431B13620F513120017D4F0 /* Resources */,
+			);
+			path = "Power Nap Timer";
+			sourceTree = "<group>";
+		};
+		8431B11C20F512F80017D4F0 /* Power Nap TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8431B11D20F512F80017D4F0 /* Power_Nap_TimerTests.swift */,
+				8431B11F20F512F80017D4F0 /* Info.plist */,
+			);
+			path = "Power Nap TimerTests";
+			sourceTree = "<group>";
+		};
+		8431B12720F512F80017D4F0 /* Power Nap TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8431B12820F512F80017D4F0 /* Power_Nap_TimerUITests.swift */,
+				8431B12A20F512F80017D4F0 /* Info.plist */,
+			);
+			path = "Power Nap TimerUITests";
+			sourceTree = "<group>";
+		};
+		8431B13620F513120017D4F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8431B10920F512F70017D4F0 /* Main.storyboard */,
+				8431B10F20F512F80017D4F0 /* Assets.xcassets */,
+				8431B11120F512F80017D4F0 /* LaunchScreen.storyboard */,
+				8431B11420F512F80017D4F0 /* Info.plist */,
+				8431B10C20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8431B10120F512F70017D4F0 /* Power Nap Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431B12D20F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap Timer" */;
+			buildPhases = (
+				8431B0FE20F512F70017D4F0 /* Sources */,
+				8431B0FF20F512F70017D4F0 /* Frameworks */,
+				8431B10020F512F70017D4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Nap Timer";
+			productName = "Power Nap Timer";
+			productReference = 8431B10220F512F70017D4F0 /* Power Nap Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8431B11820F512F80017D4F0 /* Power Nap TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431B13020F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap TimerTests" */;
+			buildPhases = (
+				8431B11520F512F80017D4F0 /* Sources */,
+				8431B11620F512F80017D4F0 /* Frameworks */,
+				8431B11720F512F80017D4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8431B11B20F512F80017D4F0 /* PBXTargetDependency */,
+			);
+			name = "Power Nap TimerTests";
+			productName = "Power Nap TimerTests";
+			productReference = 8431B11920F512F80017D4F0 /* Power Nap TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8431B12320F512F80017D4F0 /* Power Nap TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431B13320F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap TimerUITests" */;
+			buildPhases = (
+				8431B12020F512F80017D4F0 /* Sources */,
+				8431B12120F512F80017D4F0 /* Frameworks */,
+				8431B12220F512F80017D4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8431B12620F512F80017D4F0 /* PBXTargetDependency */,
+			);
+			name = "Power Nap TimerUITests";
+			productName = "Power Nap TimerUITests";
+			productReference = 8431B12420F512F80017D4F0 /* Power Nap TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8431B0FA20F512F70017D4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Cameron Ingham";
+				TargetAttributes = {
+					8431B10120F512F70017D4F0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8431B11820F512F80017D4F0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8431B10120F512F70017D4F0;
+					};
+					8431B12320F512F80017D4F0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8431B10120F512F70017D4F0;
+					};
+				};
+			};
+			buildConfigurationList = 8431B0FD20F512F70017D4F0 /* Build configuration list for PBXProject "Power Nap Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8431B0F920F512F70017D4F0;
+			productRefGroup = 8431B10320F512F70017D4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8431B10120F512F70017D4F0 /* Power Nap Timer */,
+				8431B11820F512F80017D4F0 /* Power Nap TimerTests */,
+				8431B12320F512F80017D4F0 /* Power Nap TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8431B10020F512F70017D4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431B11320F512F80017D4F0 /* LaunchScreen.storyboard in Resources */,
+				8431B11020F512F80017D4F0 /* Assets.xcassets in Resources */,
+				8431B10B20F512F70017D4F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B11720F512F80017D4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B12220F512F80017D4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8431B0FE20F512F70017D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431B13D20F516860017D4F0 /* ViewController.swift in Sources */,
+				8431B14020F516BD0017D4F0 /* MyTimer.swift in Sources */,
+				8431B10620F512F70017D4F0 /* AppDelegate.swift in Sources */,
+				8431B10E20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B11520F512F80017D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431B11E20F512F80017D4F0 /* Power_Nap_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8431B12020F512F80017D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431B12920F512F80017D4F0 /* Power_Nap_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8431B11B20F512F80017D4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8431B10120F512F70017D4F0 /* Power Nap Timer */;
+			targetProxy = 8431B11A20F512F80017D4F0 /* PBXContainerItemProxy */;
+		};
+		8431B12620F512F80017D4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8431B10120F512F70017D4F0 /* Power Nap Timer */;
+			targetProxy = 8431B12520F512F80017D4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8431B10920F512F70017D4F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431B10A20F512F70017D4F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8431B11120F512F80017D4F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431B11220F512F80017D4F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8431B12B20F512F80017D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8431B12C20F512F80017D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8431B12E20F512F80017D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "$(SRCROOT)/Power Nap Timer/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8431B12F20F512F80017D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "$(SRCROOT)/Power Nap Timer/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8431B13120F512F80017D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Power Nap TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Nap Timer.app/Power Nap Timer";
+			};
+			name = Debug;
+		};
+		8431B13220F512F80017D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Power Nap TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Nap Timer.app/Power Nap Timer";
+			};
+			name = Release;
+		};
+		8431B13420F512F80017D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Power Nap TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Power Nap Timer";
+			};
+			name = Debug;
+		};
+		8431B13520F512F80017D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Power Nap TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Power-Nap-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Power Nap Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8431B0FD20F512F70017D4F0 /* Build configuration list for PBXProject "Power Nap Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431B12B20F512F80017D4F0 /* Debug */,
+				8431B12C20F512F80017D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8431B12D20F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431B12E20F512F80017D4F0 /* Debug */,
+				8431B12F20F512F80017D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8431B13020F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431B13120F512F80017D4F0 /* Debug */,
+				8431B13220F512F80017D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8431B13320F512F80017D4F0 /* Build configuration list for PBXNativeTarget "Power Nap TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431B13420F512F80017D4F0 /* Debug */,
+				8431B13520F512F80017D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8431B10C20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8431B10D20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodel */,
+			);
+			currentVersion = 8431B10D20F512F70017D4F0 /* Power_Nap_Timer.xcdatamodel */;
+			path = Power_Nap_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8431B0FA20F512F70017D4F0 /* Project object */;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9yS-Tz-VyW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Card View Controller-->
+        <scene sceneID="qIo-PF-Euz">
+            <objects>
+                <viewController id="9yS-Tz-VyW" customClass="CardViewController" customModule="Deck_of_One_Card" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qy7-76-w59">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="InN-5i-BVV">
+                                <rect key="frame" x="67.5" y="175.5" width="240" height="336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="UEq-6a-RbX"/>
+                                    <constraint firstAttribute="height" constant="336" id="fBU-mb-DfM"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82I-9D-Aag">
+                                <rect key="frame" x="151" y="617" width="72" height="30"/>
+                                <state key="normal" title="Draw Card"/>
+                                <connections>
+                                    <action selector="draw:" destination="9yS-Tz-VyW" eventType="touchUpInside" id="Usw-Za-4Yo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="InN-5i-BVV" firstAttribute="centerY" secondItem="AWK-eg-iPo" secondAttribute="centerY" id="5Ro-IC-IaR"/>
+                            <constraint firstItem="82I-9D-Aag" firstAttribute="centerX" secondItem="AWK-eg-iPo" secondAttribute="centerX" id="Gi2-UB-sw1"/>
+                            <constraint firstItem="InN-5i-BVV" firstAttribute="centerX" secondItem="AWK-eg-iPo" secondAttribute="centerX" id="Koa-wA-eqP"/>
+                            <constraint firstItem="82I-9D-Aag" firstAttribute="top" secondItem="InN-5i-BVV" secondAttribute="bottom" constant="105.5" id="eKa-Bw-fjj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AWK-eg-iPo"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardImage" destination="InN-5i-BVV" id="oXw-uI-7me"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZr-6x-7gN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+</document>

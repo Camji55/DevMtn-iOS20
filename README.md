@@ -4,7 +4,7 @@
 </a></p>
 <br/><br/>
 
-### PreCourse
+### Pre Course
 - Module 1: [Swift Programming Big Nerd Ranch Guide](https://github.com/Camji55/DevMtn-iOS20-PreCourse/tree/master/Swift%20Programming%20Big%20Nerd%20Ranch%20Guide)
 
 - Module 2: [Team Treehouse - Beginning Swift Track](https://teamtreehouse.com/camji55)

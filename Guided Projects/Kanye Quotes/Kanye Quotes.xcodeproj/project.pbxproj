@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E11EC920F8242E00740685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11EC820F8242E00740685 /* AppDelegate.swift */; };
+		84E11ECE20F8242E00740685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E11ECC20F8242E00740685 /* Main.storyboard */; };
+		84E11ED120F8242E00740685 /* Kanye_Quotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E11ECF20F8242E00740685 /* Kanye_Quotes.xcdatamodeld */; };
+		84E11ED320F8242F00740685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E11ED220F8242F00740685 /* Assets.xcassets */; };
+		84E11ED620F8242F00740685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E11ED420F8242F00740685 /* LaunchScreen.storyboard */; };
+		84E11EE120F8242F00740685 /* Kanye_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11EE020F8242F00740685 /* Kanye_QuotesTests.swift */; };
+		84E11EEC20F8242F00740685 /* Kanye_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11EEB20F8242F00740685 /* Kanye_QuotesUITests.swift */; };
+		84E11F0020F82C5B00740685 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11EFF20F82C5B00740685 /* CoreDataStack.swift */; };
+		84E11F0220F82EFB00740685 /* Quote+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11F0120F82EFB00740685 /* Quote+Convenience.swift */; };
+		84E11F0420F82F6000740685 /* QuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11F0320F82F6000740685 /* QuoteController.swift */; };
+		84E11F0620F8307000740685 /* QuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11F0520F8307000740685 /* QuotesTableViewController.swift */; };
+		84E11F0820F8308100740685 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11F0720F8308100740685 /* QuoteViewController.swift */; };
+		84E11F0A20F8317000740685 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E11F0920F8317000740685 /* QuoteTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E11EDD20F8242F00740685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E11EBD20F8242E00740685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E11EC420F8242E00740685;
+			remoteInfo = "Kanye Quotes";
+		};
+		84E11EE820F8242F00740685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E11EBD20F8242E00740685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E11EC420F8242E00740685;
+			remoteInfo = "Kanye Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E11EC520F8242E00740685 /* Kanye Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E11EC820F8242E00740685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E11ECD20F8242E00740685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E11ED020F8242E00740685 /* Kanye_Quotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kanye_Quotes.xcdatamodel; sourceTree = "<group>"; };
+		84E11ED220F8242F00740685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E11ED520F8242F00740685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E11ED720F8242F00740685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E11EDC20F8242F00740685 /* Kanye QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanye QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E11EE020F8242F00740685 /* Kanye_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_QuotesTests.swift; sourceTree = "<group>"; };
+		84E11EE220F8242F00740685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E11EE720F8242F00740685 /* Kanye QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanye QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E11EEB20F8242F00740685 /* Kanye_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_QuotesUITests.swift; sourceTree = "<group>"; };
+		84E11EED20F8242F00740685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E11EFF20F82C5B00740685 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		84E11F0120F82EFB00740685 /* Quote+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quote+Convenience.swift"; sourceTree = "<group>"; };
+		84E11F0320F82F6000740685 /* QuoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteController.swift; sourceTree = "<group>"; };
+		84E11F0520F8307000740685 /* QuotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTableViewController.swift; sourceTree = "<group>"; };
+		84E11F0720F8308100740685 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		84E11F0920F8317000740685 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E11EC220F8242E00740685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11ED920F8242F00740685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11EE420F8242F00740685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E11EBC20F8242E00740685 = {
+			isa = PBXGroup;
+			children = (
+				84E11EC720F8242E00740685 /* Kanye Quotes */,
+				84E11EDF20F8242F00740685 /* Kanye QuotesTests */,
+				84E11EEA20F8242F00740685 /* Kanye QuotesUITests */,
+				84E11EC620F8242E00740685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E11EC620F8242E00740685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E11EC520F8242E00740685 /* Kanye Quotes.app */,
+				84E11EDC20F8242F00740685 /* Kanye QuotesTests.xctest */,
+				84E11EE720F8242F00740685 /* Kanye QuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E11EC720F8242E00740685 /* Kanye Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				84E11EC820F8242E00740685 /* AppDelegate.swift */,
+				84E11EFC20F8248400740685 /* Models */,
+				84E11EFB20F8248000740685 /* Views */,
+				84E11EFA20F8247A00740685 /* Controllers */,
+				84E11EF920F8246300740685 /* Resources */,
+			);
+			path = "Kanye Quotes";
+			sourceTree = "<group>";
+		};
+		84E11EDF20F8242F00740685 /* Kanye QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E11EE020F8242F00740685 /* Kanye_QuotesTests.swift */,
+				84E11EE220F8242F00740685 /* Info.plist */,
+			);
+			path = "Kanye QuotesTests";
+			sourceTree = "<group>";
+		};
+		84E11EEA20F8242F00740685 /* Kanye QuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E11EEB20F8242F00740685 /* Kanye_QuotesUITests.swift */,
+				84E11EED20F8242F00740685 /* Info.plist */,
+			);
+			path = "Kanye QuotesUITests";
+			sourceTree = "<group>";
+		};
+		84E11EF920F8246300740685 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84E11ED220F8242F00740685 /* Assets.xcassets */,
+				84E11ED420F8242F00740685 /* LaunchScreen.storyboard */,
+				84E11ED720F8242F00740685 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84E11EFA20F8247A00740685 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E11EFE20F8249E00740685 /* View Controllers */,
+				84E11EFD20F8249800740685 /* Model Controllers */,
+				84E11F0920F8317000740685 /* QuoteTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84E11EFB20F8248000740685 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E11ECC20F8242E00740685 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84E11EFC20F8248400740685 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E11ECF20F8242E00740685 /* Kanye_Quotes.xcdatamodeld */,
+				84E11EFF20F82C5B00740685 /* CoreDataStack.swift */,
+				84E11F0120F82EFB00740685 /* Quote+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84E11EFD20F8249800740685 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E11F0320F82F6000740685 /* QuoteController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		84E11EFE20F8249E00740685 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E11F0520F8307000740685 /* QuotesTableViewController.swift */,
+				84E11F0720F8308100740685 /* QuoteViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E11EC420F8242E00740685 /* Kanye Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E11EF020F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye Quotes" */;
+			buildPhases = (
+				84E11EC120F8242E00740685 /* Sources */,
+				84E11EC220F8242E00740685 /* Frameworks */,
+				84E11EC320F8242E00740685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanye Quotes";
+			productName = "Kanye Quotes";
+			productReference = 84E11EC520F8242E00740685 /* Kanye Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E11EDB20F8242F00740685 /* Kanye QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E11EF320F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye QuotesTests" */;
+			buildPhases = (
+				84E11ED820F8242F00740685 /* Sources */,
+				84E11ED920F8242F00740685 /* Frameworks */,
+				84E11EDA20F8242F00740685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E11EDE20F8242F00740685 /* PBXTargetDependency */,
+			);
+			name = "Kanye QuotesTests";
+			productName = "Kanye QuotesTests";
+			productReference = 84E11EDC20F8242F00740685 /* Kanye QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E11EE620F8242F00740685 /* Kanye QuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E11EF620F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye QuotesUITests" */;
+			buildPhases = (
+				84E11EE320F8242F00740685 /* Sources */,
+				84E11EE420F8242F00740685 /* Frameworks */,
+				84E11EE520F8242F00740685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E11EE920F8242F00740685 /* PBXTargetDependency */,
+			);
+			name = "Kanye QuotesUITests";
+			productName = "Kanye QuotesUITests";
+			productReference = 84E11EE720F8242F00740685 /* Kanye QuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E11EBD20F8242E00740685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Cameron Ingham";
+				TargetAttributes = {
+					84E11EC420F8242E00740685 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					84E11EDB20F8242F00740685 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84E11EC420F8242E00740685;
+					};
+					84E11EE620F8242F00740685 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84E11EC420F8242E00740685;
+					};
+				};
+			};
+			buildConfigurationList = 84E11EC020F8242E00740685 /* Build configuration list for PBXProject "Kanye Quotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E11EBC20F8242E00740685;
+			productRefGroup = 84E11EC620F8242E00740685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E11EC420F8242E00740685 /* Kanye Quotes */,
+				84E11EDB20F8242F00740685 /* Kanye QuotesTests */,
+				84E11EE620F8242F00740685 /* Kanye QuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E11EC320F8242E00740685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E11ED620F8242F00740685 /* LaunchScreen.storyboard in Resources */,
+				84E11ED320F8242F00740685 /* Assets.xcassets in Resources */,
+				84E11ECE20F8242E00740685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11EDA20F8242F00740685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11EE520F8242F00740685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E11EC120F8242E00740685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E11F0420F82F6000740685 /* QuoteController.swift in Sources */,
+				84E11F0220F82EFB00740685 /* Quote+Convenience.swift in Sources */,
+				84E11F0620F8307000740685 /* QuotesTableViewController.swift in Sources */,
+				84E11F0020F82C5B00740685 /* CoreDataStack.swift in Sources */,
+				84E11F0A20F8317000740685 /* QuoteTableViewCell.swift in Sources */,
+				84E11EC920F8242E00740685 /* AppDelegate.swift in Sources */,
+				84E11F0820F8308100740685 /* QuoteViewController.swift in Sources */,
+				84E11ED120F8242E00740685 /* Kanye_Quotes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11ED820F8242F00740685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E11EE120F8242F00740685 /* Kanye_QuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E11EE320F8242F00740685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E11EEC20F8242F00740685 /* Kanye_QuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E11EDE20F8242F00740685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E11EC420F8242E00740685 /* Kanye Quotes */;
+			targetProxy = 84E11EDD20F8242F00740685 /* PBXContainerItemProxy */;
+		};
+		84E11EE920F8242F00740685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E11EC420F8242E00740685 /* Kanye Quotes */;
+			targetProxy = 84E11EE820F8242F00740685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E11ECC20F8242E00740685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E11ECD20F8242E00740685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E11ED420F8242F00740685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E11ED520F8242F00740685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E11EEE20F8242F00740685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E11EEF20F8242F00740685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E11EF120F8242F00740685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "$(SRCROOT)/Kanye Quotes/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E11EF220F8242F00740685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "$(SRCROOT)/Kanye Quotes/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E11EF420F8242F00740685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Kanye QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanye Quotes.app/Kanye Quotes";
+			};
+			name = Debug;
+		};
+		84E11EF520F8242F00740685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Kanye QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanye Quotes.app/Kanye Quotes";
+			};
+			name = Release;
+		};
+		84E11EF720F8242F00740685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Kanye QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanye Quotes";
+			};
+			name = Debug;
+		};
+		84E11EF820F8242F00740685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9HL3TFS6J;
+				INFOPLIST_FILE = "Kanye QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.astranno.Kanye-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanye Quotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E11EC020F8242E00740685 /* Build configuration list for PBXProject "Kanye Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E11EEE20F8242F00740685 /* Debug */,
+				84E11EEF20F8242F00740685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E11EF020F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E11EF120F8242F00740685 /* Debug */,
+				84E11EF220F8242F00740685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E11EF320F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E11EF420F8242F00740685 /* Debug */,
+				84E11EF520F8242F00740685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E11EF620F8242F00740685 /* Build configuration list for PBXNativeTarget "Kanye QuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E11EF720F8242F00740685 /* Debug */,
+				84E11EF820F8242F00740685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E11ECF20F8242E00740685 /* Kanye_Quotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E11ED020F8242E00740685 /* Kanye_Quotes.xcdatamodel */,
+			);
+			currentVersion = 84E11ED020F8242E00740685 /* Kanye_Quotes.xcdatamodel */;
+			path = Kanye_Quotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E11EBD20F8242E00740685 /* Project object */;
+}

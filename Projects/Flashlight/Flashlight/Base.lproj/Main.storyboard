@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Flashlight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3A5-lr-g1T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Power" translatesAutoresizingMaskIntoConstraints="NO" id="6k0-F4-O5U">
+                                        <rect key="frame" x="167" y="313" width="40" height="40"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="PDB-Sc-IQx"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="a1i-MV-zU5"/>
+                                            <constraint firstAttribute="width" constant="40" id="pof-6A-Wae"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="uUd-vF-U2l"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap anywhere to turn on" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmz-Wf-H6m">
+                                        <rect key="frame" x="61" y="178" width="252" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6k0-F4-O5U" firstAttribute="top" secondItem="Xmz-Wf-H6m" secondAttribute="bottom" constant="105" id="Eqj-nG-b0A"/>
+                                    <constraint firstItem="6k0-F4-O5U" firstAttribute="centerX" secondItem="3A5-lr-g1T" secondAttribute="centerX" id="aft-Bh-waB"/>
+                                    <constraint firstItem="6k0-F4-O5U" firstAttribute="centerY" secondItem="3A5-lr-g1T" secondAttribute="centerY" id="lU7-8Z-6YQ"/>
+                                    <constraint firstItem="Xmz-Wf-H6m" firstAttribute="centerX" secondItem="6k0-F4-O5U" secondAttribute="centerX" id="piH-ig-7Os"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="3A5-lr-g1T" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="8oa-EH-S7J"/>
+                            <constraint firstItem="3A5-lr-g1T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ikn-aj-2n3"/>
+                            <constraint firstItem="3A5-lr-g1T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VQe-FH-OzZ"/>
+                            <constraint firstItem="3A5-lr-g1T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wff-a3-gom"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Te9-cH-N77" appends="YES" id="CgO-Tw-HmY"/>
+                            <outletCollection property="gestureRecognizers" destination="LNV-N8-1kD" appends="YES" id="80V-qp-G60"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="lightView" destination="3A5-lr-g1T" id="Euc-lT-yDi"/>
+                        <outlet property="powerImage" destination="6k0-F4-O5U" id="hAq-cf-yxo"/>
+                        <outlet property="tapLabel" destination="Xmz-Wf-H6m" id="fXt-3X-XaZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Te9-cH-N77">
+                    <connections>
+                        <action selector="handleTapWithRecognizer:" destination="BYZ-38-t0r" id="YEg-pE-N6G"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="LNV-N8-1kD">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="l8Z-oU-8YW"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Power" width="64" height="64"/>
+    </resources>
+</document>
