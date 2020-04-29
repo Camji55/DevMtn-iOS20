@@ -4,9 +4,9 @@
 
 Simple journal app written in Objective C created at [DevMountain](https://www.devmountain.com)
 
-Codeable version [here](https://github.com/Camji55/Journal-iOS)
+Codeable version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Projects/Journal)
 
-CloudKit version [here](https://github.com/Camji55/Journal-CloudKit-iOS)
+CloudKit version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Projects/Journal%20CloudKit)
 
 ### To Do
 - Trim white space

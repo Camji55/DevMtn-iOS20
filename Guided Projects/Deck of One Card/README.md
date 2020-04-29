@@ -2,7 +2,7 @@
 
 [< Back](https://github.com/Camji55/DevMtn-iOS20/)
 
-Objective-C version [here](https://github.com/Camji55/Card-C-iOS)
+Objective-C version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Projects/Card%20C)
 
 - Shows basic understanding of pulling simple data from a REST API
 

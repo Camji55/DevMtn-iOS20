@@ -4,9 +4,9 @@
 
 Simple journal app created at [DevMountain](https://www.devmountain.com)
 
-Codeable version [here](https://github.com/Camji55/Journal-iOS)
+Codeable version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Projects/Journal)
 
-Objective-C version [here](https://github.com/Camji55/Journal-C-iOS)
+Objective-C version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Projects/Journal%20C)
 
 ### To Do
 - Trim white space

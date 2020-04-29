@@ -4,7 +4,7 @@
 
 Simple card draw app written in Objective C created at [DevMountain](https://www.devmountain.com)
 
-Swift version [here](https://github.com/Camji55/DevMtn-iOS20-GuidedProjects/tree/master/Deck%20of%20One%20Card)
+Swift version [here](https://github.com/Camji55/DevMtn-iOS20/tree/master/Guided%20Projects/Deck%20of%20One%20Card)
 
 ### Screenshots
 <p align="center">
